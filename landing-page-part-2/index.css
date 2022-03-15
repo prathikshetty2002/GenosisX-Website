@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.grand{
+	width: 100vw;
+	height: 100vh;
+	color: #fff;
+}
+h1{
+	font-size: 40px;
+line-height: 158.34%;
+	padding: 50px 0;
+	text-align: center;
+	color: #000;
+}
+p{
+	text-align: center;
+}
+.parent{
+	width: 90vw;
+	height: auto;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	transition: all 0.2 linear;
+}
+.child{
+	width: 320px;
+	height: 220px;
+	background: #C4C4C4;
+	/* box-shadow: 0 0 20px #FF0135; */
+	border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+	margin: 10px;
+	/* flex: 1 1 200px; */
+}
+button.course_type{
+	/* position: absolute; */
+	width: 70px;
+	height: 33px;
+	margin-left: 248px;
+	top: 3188px;
+	/* red */
+	background: linear-gradient(253.58deg, #FF0135 1.55%, #760828 95.8%);
+	border: 1px solid #000000;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 9px;
+	box-sizing: border-box;
+	color: #FFFEFC;
+}
+button.box{
+	/* position: absolute; */
+    width: 319px;
+    height: 73px;
+    right: 1054px;
+    margin-top: 113px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 152.34%;
+/* or 21px */
+text-align: center;
+/* red */
+background: linear-gradient(253.58deg, #FF0135 1.55%, #760828 95.8%);
+box-sizing: border-box;
+}
+.child:first-child{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.child:last-child{
+	background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.button button{
+	position: absolute;
+	width: 160px;
+    height: 56px;
+    left: 679px;
+    top: 1155px;
+	text-align: center;
+background: linear-gradient(253.58deg, #FF0135 1.55%, #760828 95.8%);
+box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+border-radius: 100px;
+}
+.button p{
+	margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+/* identical to box height */
+    color:  #FFFEFC;
+	text-align: center;
+}
+
+@meiia (max-width: 768px){
+	.grand{
+		height:auto;
+	}
+}
