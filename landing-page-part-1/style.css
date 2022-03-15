@@ -1,0 +1,226 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('../bg1.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    box-shadow: 7px 5px 10px grey;
+}
+
+/* Navigation Bar: Logo and image */
+#logo{
+    margin: 15px 15px;
+}
+#logo img{
+    height: 56px;
+    margin: -1px 45px;
+}
+
+/* Navigation Bar: List Styling */
+#navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+}
+
+.mid{
+    margin-left: 190px;
+    font-family: Calibri;
+}
+#navbar::before{
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3 rem;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    color: #270B22;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+   color: #0C0D20;
+   border-radius: 2px solid black;
+}
+
+.right {
+    position: absolute;
+    right: 21px;
+    top: 26px;
+    display: inline-block;
+
+    /* border: 2px solid yellow; */
+}
+
+.btn {
+    font-family: calibri;
+    margin: 0px 9px;
+    background-color: #0b0c27;
+    color: white;
+    padding: 7px 21px;
+    border: 2px solid #0b0c27;
+    border-radius: 139px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Home section */
+.h1-mid {
+    font-family: Calibri;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+#home{
+    padding: 171px 209px;
+    flex-direction: column;
+}
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('https://i.postimg.cc/G3StVGNy/Rectangle.png') no-repeat center center/cover;
+    height: 43em;
+    top:112px;
+    left:2px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+    margin-top: -24px;
+}
+.home-p{
+    font-family: Calibri;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D8DAF5;
+}
+
+.btn2 {
+    font-family: calibri;
+    margin: 0px 30px;
+    background-color: #FF0135;
+    color: #FBFBFB;
+    padding: 7px 50px;
+    border-radius: 100px;
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    width: 161.71px;
+    height: 54.17px;
+    left: 176.95px;
+    top: 552.54px;
+}
+
+#home-img{
+    position: absolute;
+    width: 686.74px;
+    height: 692.65px;
+    left: 769.11px;
+    top: 23px;
+    margin-left: 218px;
+}
+/* third section */
+.third{
+    display: flex;
+}
+.third::before{ 
+    content: "";
+    position: absolute;
+    background: url(https://i.postimg.cc/MT61r912/Rectangle-26.png) no-repeat center center/cover;
+    height: 76em;
+    top: 800px;
+    left: -34px;
+    width: 103%;
+    opacity: 0.89;
+    margin-top: -24px;
+
+}
+.home-third-img{
+    margin-left: 16.5em;
+    margin-top: 16em;
+    z-index: 2;
+}
+#home-third-img2{
+    position: absolute;
+    margin-left: 15.5em;
+    margin-top: 39.5em;
+}
+.font-column {
+    font-family: Calibri;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    z-index: 2;
+    margin: -13em;
+    margin-top: 45rem;
+    color: #FF0135;
+}
+
+.home-third-img3{
+    position: absolute;
+    z-index: 2;
+    margin-top: 47em;
+    margin-left: 66rem;
+}
+.home-third-img4{
+    position: absolute;
+    z-index: 2;
+    margin-top: 56em;
+    margin-left: 66rem;
+}
+.third-btn{
+    position: absolute;
+    height: 55.51807403564453px;
+    width: 160px;
+    border-radius: 100px;
+    z-index: 2;
+    background-color: #FF0135;
+    color: #ffffff;
+    margin-left: 79em;
+    margin-top: 80em;
+}
+
