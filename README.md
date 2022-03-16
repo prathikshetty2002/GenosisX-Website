@@ -1,4 +1,4 @@
-# CollabX
+# GenosisX
 
 A community driven web application to help students find their passion.
 At collabx we thrive to unite learners with the community, to inculcate a community learning habit.
