@@ -13,6 +13,6 @@ C) About us section
 D) Footer section
 
 The repo is under development** 
-The initiative is currently undertaken and led  by 6 students, you can join us to contribute in our project.
+The initiative is currently undertaken and led  by student developers, you can join us to contribute in our project.
  
 
